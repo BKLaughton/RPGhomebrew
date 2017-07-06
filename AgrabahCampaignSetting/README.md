@@ -1,6 +1,6 @@
 ## Agrabah Campaign Setting
 
-A d20-system campaign setting for Agrabah and surrounding regions, based on canon established in the Aladdin animated films and TV series. Currently under early development, whereby films and episodes are watched and analysed to build a body of basic setting canon. Setting notes can be found in the [wiki](https://github.com/BKLaughton/AgrabahCampaignSetting/wiki).
+A d20-system campaign setting for Agrabah and surrounding regions, based on canon established in the Aladdin animated films and TV series. Currently under early development, whereby films and episodes are watched and analysed to build a body of basic setting canon. 
 
 #### Disclaimer
 

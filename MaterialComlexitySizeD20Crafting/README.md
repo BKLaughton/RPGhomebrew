@@ -2,7 +2,7 @@
 >
 > Standard D20 crafting rules base crafting times upon the market price of the items being created. This results in weird and unheroic gameplay outcomes. For instance, gold armour takes months longer to make than steel armour, even though gold is easier to work with. Or, a legendary swordsmith PC might have to take a couple of years off adventuring just to forge a greatsword from unique materials. Contrast how a caster can brew potions in a matter of hours, and creates magic items in mere days. 
 >
-> The goal of these rules is not to simulate perfectly realistic crafting times, just to make crafting time related to the material, complexity, and size of the item being crafted, and to make crafting a rewarding character option. Not everything has changed; most facets of these rules are likely to be familiar. Rather than overhaul the entire crafting system, this homebrew aims at modifying and expanding the existing mechanics. This guide is not comprehensive, and stands best as a supplement to a more complete D20 ruleset.
+> The goal of these rules is not to simulate perfectly realistic crafting times, just to make crafting time related to the material, complexity, and size of the item being crafted, and to make crafting a rewarding character option. Not everything has changed; most facets of these rules are likely to be familiar. Rather than overhaul the entire crafting system, this homebrew aims at modifying, combining, and expanding existing mechanics. This guide is not comprehensive, and stands best as a supplement to a more complete D20 ruleset.
  
 # Crafting
 
@@ -12,7 +12,7 @@ For large projects, the DM may require that separate key components are crafted 
 
 ## Raw Materials
 
-To calculate raw material cost, simply halve the market price of the item you’re creating. If there is no market price, ask the DM to come up with one. You generally need a plausible source for the raw materials, (e.g. you can't buy 500g worth of bronze whilst camping in the wilderness, and the local village probably won't have mithril ore). Additionally, small economies are generally only capable of providing a certain amount of raw materials based on the size of their economy, so consider the logistics behind big projects and large scale crafting.
+To calculate raw material cost, simply halve the market price of the item you’re creating. If there is no market price, ask the DM to come up with one. You generally need a plausible source for the raw materials, (e.g. you can't buy 500g worth of bronze whilst camping in the wilderness, and the local village probably won't have mithril ore). Local economies are generally only capable of providing a certain amount of raw materials based on their size, so consider the logistics behind big projects and large scale crafting.
 
 With DM approval, raw materials might be able to be sourced via alternative methods: perhaps harvested by the PCs during downtime, purchased in bulk from an industrial supplier or kingdom, or perhaps collected via adventures.
 
@@ -39,7 +39,7 @@ Resilient|16|Steel, stone, gems, adamantine, cold iron, mithril
 
 ## Complexity DC
 
-Each item has a certain level of complexity in its design, and this complexity determines the difficulty of this item’s creation in terms of skill, whilst also affecting how long it takes to make. See **Table 1.2** for different complexity levels with examples and corresponding Complexity DC rating.  This table doesn't grant the ability to craft items beyond the technology level of the setting of the game. 
+Each item has a certain level of complexity in its design, this determines the difficulty of its creation in terms of skill, whilst also affecting how long it takes to make. See **Table 1.2** for different complexity levels with examples and corresponding Complexity DC rating.  This table doesn't grant the ability to craft items beyond the technology level of the setting of the game. 
 
 **Table 1.2: Item Complexity**
  
@@ -53,11 +53,13 @@ Intricate|25|Smokeless gunpowder, antitoxin, itching powder, liquid ice, pellet 
 Very Intricate|30|Rusting powder, explosives, traps CR 11–15, pocket watches, airships, alchemical siege engines, siege firearms.
 Extremely Intricate|35|Vaccines, traps CR 16+, alchemical dragons, steam giants, mechanical flying machines, steam engines, gearboxes.
 
-###Prototypes
-With DM approval, technological innovations beyond the level that exist in the game world can be developed by building a prototype. This prototype requires triple raw material costs and triple the standard CV of an item of it's type to create. Additionally, daily progress checks are made against a complexity DC one level higher than for the item being developed. The end result is a prototype of the desired item which is fragile, unstable, improperly sized, or otherwise impractical to use. Once the prototype has been created, new items of that type can be created. Alternatively, for same CV of creating a new item (but only half the standard raw material cost), the original prototype can be upgraded such that it no longer has prototype flaws. 
+### Prototypes
+
+With DM approval, technological innovations beyond the level that exist in the game world can be developed by building a prototype. This prototype requires triple raw material costs and triple the standard CV of an item of it's type to create. Additionally, daily progress checks are made against a complexity DC one level higher than for the item being developed. The end result is a prototype of the desired item which is fragile, unstable, improperly sized, or otherwise impractical to use. Once the prototype has been created, new items of that type can be created. Alternatively, for same CV of creating a new item (but only half the standard raw material cost), the original prototype can be upgraded such that it no longer has prototype penalties. 
 
 ## Size Modifier
-Tiny items between 1ft-2ft are the easiest to make in this system, as item gets smaller, it get’s fiddly and takes longer to make, whereas larger items take longer on account of more physical work. The modifier is different for small and medium sized crafters, based on the relative size of the items they work upon. When dimension and weight categories are in disagreement, the larger modifier applies.
+
+Tiny items between 1ft-2ft are the easiest to make in this system, as item gets smaller, it get’s fiddly and takes longer to make, whereas larger items take longer on account of more physical work. The modifier is different for small and medium sized crafters, based on the relative size of the items they work upon. When dimension and weight categories are in disagreement, the larger modifier applies. See **Table 1.3** (below) for a full list of size categories with corresponding modifiers and bounding dimensions and weights.
 
 **Table 1.3: Size modifier**
 
@@ -76,15 +78,15 @@ Colossal|256 / 128|64 ft. or more|125 tons or more
 
 ## Progress Points (PP)
 
-At the beginning of each day, a crafter makes a crafting skill check to determine how much progress they make in crafting the item. They make a check against the Complexity DC of the item they’re working on. If successful, add the total result to the project's Progress Point (PP) total. If the check succeeds by 5, the accrued PP equals twice the check result. If the check succeeds by 10 or more, it’s triple the check result in PP. 
+At the beginning of each day, a crafter makes a crafting skill check to determine how much progress they make in crafting the item. The check is made against the Complexity DC of the item being working on. If successful, add the total result to the project's Progress Point (PP) total. If the check succeeds by 5, add double the check result to the PP total. If the check succeeds by 10 or more, add triple the check result in PP.
 
-Failing a daily progress check means that no progress is made that day. Failing by 5 deducts one quarter of the accrued PP. Failing by 10 deducts half of the accrued PP. Failing by 15 or more deducts all PP, destroying the project completely and requiring the crafter to start over; half of the required raw materials can be salvaged from the failed project, the other half will need to be acquired by the crafter to resume work.
+Failing a daily progress check means that no progress is made that day. Failing by 5 deducts one quarter of the accrued PP. Failing by 10 deducts half of the accrued PP. Failing by 15 or more deducts all PP, destroying the project completely and requiring the crafter to start over; half of the required raw materials can be salvaged from the failed project, the other half will need to be sourced anew to resume work.
  
 If the crafter doesn’t have the required tools for their craft, they get -5 on their craft check. If they possess masterwork tools, they get +2. Some crafting skills require certain facilities (e.g. smithing requires a forge). 
 
 #### Helpers
  
-The crafter can receive a bonus from helpers, skilled and unskilled, so long as those helpers are fully occupied with helping for the entire duration of the work.  Unskilled helpers provide a +2 bonus to the crafter’s skill check each. Skilled helpers make their own craft checks and contribute towards project completion. The maximum number of helpers depends on their skill level, and the relative size of the item being produced. Small crafters are generally at an advantage here, which is why they’re favoured as artisans and slaves.
+The crafter can receive a bonus from helpers, skilled and unskilled, so long as those helpers are fully occupied with helping for the entire duration of the work.  Unskilled helpers provide a +2 bonus to the crafter’s skill check each. Skilled helpers make their own craft checks and contribute towards project completion. The maximum number of helpers depends on their skill level, and the relative size of the item being produced. This limit represents the maximum number of individuals that contribute directly to the project's creation - a construction site may have many more labourers serving auxiliary functions that do not directly add to PP totals (e.g. bringing raw materials to the site). See **Table 1.4** (below) for a full listing of maximum skilled and unskilled helpers of Small and Medium size as related to the size of the object being created.
 
 #### Working overtime
 
@@ -110,7 +112,11 @@ Colossal|12 / 10|3 / 3
 
 A piece of weaponry or armour can be given a modification with the relevant craft skill. Each piece of equipment can only have one modification applied at once, though modifications can be changed or removed with the appropriate craft skill. 
  
-To make modifications, use the crafting rules above, but quarter the crafting value (CV) required to make the weapon or armour being modified: this is the CV for the modification. Then use the same crafting rules to find the Complexity DC for that item, and roll against it daily to accrue Progress Points (PP). The modification is complete when the PP total equals or exceeds the modification's CV. Weapons and Armour are considered broken whilst modification work is in progress.
+To make modifications, use the crafting rules above, but quarter the crafting value (CV) required to make the weapon or armour being modified: this is the CV for the modification. Then use the same crafting rules to find the Complexity DC for that item, and roll against it daily to accrue Progress Points (PP). The modification is complete when the PP total equals or exceeds the modification's CV. Weapons and Armour have the 'broken' condition whilst modification work is in progress. Many Armour modifications can also be applied to clothing (not those modifying armour statistics, of course), but a character cannot reap the benefits of modified clothing and armour, just whichever is worn on top. See **Table 1.5** and **Table 1.6** for a full list of Weapon and Armour modifications.
+
+#### Optional rule: Personalisations
+
+With DM approval, a second modification can be applied to a piece of weaponry or armour, making that item 'personalised' to a specific user. Using a personalised weapon that isn't tailored to you incurs a -4 penalty to attack rolls and damage. Using personalised armour that isn't tailored to you halves the armour bonus and speed, whilst doubling the check penalty. Additionally, personalised weapons and armour are treated as 'broken' for anyone other than the user they were tailored to. It takes 2 successive modifications to repersonalise an piece of equipment to a different user.
  
 **Table 1.5: Weapon modifications**
 
@@ -119,26 +125,26 @@ To make modifications, use the crafting rules above, but quarter the crafting va
 1|Reckless|+1 to damage, -1 to hit.
 2|Balanced|+1 to hit, -1 to damage.
 3|Lightweight|Decrease the weapon’s weight by half, rounding up.
-4|Sniping|
-5|Spiked|Change melee damage type to piercing. Ranged weapon gains a melee piercing attack (1d6, x2).
-6|Bladed|Change melee damage type to slashing. Ranged weapon gains a melee slashing attack (1d6, x2).
-7|Club-headed|Change melee damage type to bludgeoning. Ranged weapon gains a melee bludgeoning attack (1d6, x2).
-8|Long|Melee weapon gains ‘brace’ and ‘reach’. Increase ranged weapon's range increment by half, rounding down. Weapon becomes two-handed if it wasn't already.
-9|Hooked|Weapon gains ‘trip’. Ranged weapons can perform this manou
-10|Pronged|Melee weapon gains ‘disarm’.
-11|Padded|Melee weapon or ammunition deals nonlethal damage.
-12|Double|Combine two single melee weapons into one ‘double’ weapon.
-13|Barbed|Melee weapon gains ‘grapple’.
-14|Reinforced|Melee weapon gains ‘sunder.’
-15|Aerodynamic|Melee weapon gains a 10-foot range and can be thrown up to 5 range increments.
-16|Arm-braced|The weapon is attached to the wielder’s arm and cannot be disarmed. The wielder can wield or carry items in the hand to which this weapon is attached, but she takes a –2 penalty on all precision-based tasks involving that hand (such as opening locks).
-17|Compact|The weapon is easy to hide, granting the wielder a +2 bonus on Sleight of Hand checks to conceal it. Only light and one-handed melee weapons and ranged weapons that need one hand to fire can have this quality.
-18|Industrial|Melee weapon grants a +2 to a specific Profession skill, and can be used as a tool in the execution of that skill.
-19|Collapsible|Two-handed Melee Weapon can be dismantled into two smaller weapons: a one-handed and a light weapon. The smaller weapons do not inherit the modification of the bigger weapon, but can be modified themselves. Collapsing or combining the weapon is a standard action that provokes an attack of opportunity.
-20|Drip-fed|
+4|Drip-fed|Weapon contains a vial that can be filled with poison. As a move action, the vial can be activated, which applies the poison to the next attack. Filling the vial involves the same risk of self-poisoning as applying the poison to a weapon or ammunition does. Firearms require pitted bullets to benefit from this modification.
+5|Spiked|Change melee damage type to piercing. Ranged weapon gains a melee piercing attack (1d6, x2 crit).
+6|Bladed|Change melee damage type to slashing. Ranged weapon gains a melee slashing attack (1d6, x2 crit).
+7|Club-headed|Change melee damage type to bludgeoning. Ranged weapon gains a melee bludgeoning attack (1d6, x2 crit).
+8|Longhafted|Melee weapon gains ‘brace’ and ‘reach’. Increase ranged weapon's range increment by half, rounding down. Weapon becomes two-handed if it wasn't already. Doubles base weight.
+9|Hooked|Weapon gains ‘trip’ quality. Can be applied to ranged weapons, but only as a melee function. Increase base weight by half.
+10|Pronged|Weapon gains 'disarm' quality. Can be applied to ranged weapons, but only as a melee function. Increase base weight by half.
+11|Padded|Change melee damage type to nonlethal. Ranged weapon gains a nonlethal melee attack (1d6, x2). Can also be applied to ammunition, changing ranged damage to nonlethal. Increase base weight by half.
+12|Double|Combine two single melee weapons into one ‘double’ weapon. Can also be applied to firearms and crossbows, adding an additional barrel or bolt groove. Both need to be loaded individually, but can be fired together or separately. Increase base weight by half for double ranged weapons, or combine component weapon weights for double melee weapons.
+13|Barbed|Weapon gains ‘grapple’ quality. Can be applied to ranged weapons, but only as a melee function. Increase base weight by half.
+14|Wrecking|Melee weapon gains ‘sunder’ quality. Ranged weapons are able to perform sunder manoeuvre upon targets within half of the distance their first range increment. Increase base weight by half.
+15|Aerodynamic|One handed weapon gains a 10-foot range and can be thrown up to 5 range increments. Two-handed weapons gain 5-foot range increment, and can be thrown up to 5 range increments. Can be applied to ranged weapons, to make them throwable for 1d6 (x2 crit) bludgeoning damage for one handed ranged weapons, and 1d10 (x2 crit) bludgeoning damage for two-handed ranged weapons.
+16|Arm-braced|The weapon is attached to the wielder’s arm and cannot be disarmed. The wielder can wield or carry items in the hand to which this weapon is attached, but she takes a –2 penalty on all precision-based tasks involving that hand (such as opening locks). Increase base weight by half.
+17|Compact|Weapon drops a damage die and size class. Ranged weapons reduce range increment by half. Light melee weapons become easier to hide, granting the wielder a +2 bonus on Sleight of Hand checks to conceal them. One-handed melee weapons become light weapons. Two-handed melee weapons become one-handed. 
+18|Heavy|Weapon increases damage die and size class, as well as doubling in weight. Light melee weapons become one-handed melee weapons. One-handed melee wepaons become two-handed weapons. Two-handed weapons remain two-handed, but add an additional 10 lbs on top of the doubled weight, and suffer -2 to hit on account of their unweildy size. Ranged weapons add 10ft to their range, and increase cone size by 5ft if they have the scatter property. Heavy ranged weapons also require custom-made ammunition that costs double price of the standard ammunition.
+19|Collapsible|Two-handed melee or ranged Weapon can be dismantled into two smaller weapons: a one-handed weapon (1d8, x2 crit) and a light weapon (1d6, x2 crit). One-handed melee and ranged weapons can be dismantled into two light weapons (1d6, x2 crit). Crafter chooses one damage type (slashing, pierching, or bludgeoning). The smaller weapons do not inherit the modification of the bigger weapon, but can be modified themselves. Light melee weapons do not collapse into smaller weapons, but instead can be broken into more easily easily concealable parts. Collapsing or combining the weapon is a standard action that provokes an attack of opportunity. 
+20|Industrial|Weapon grants a +2 to a specific Profession skill, and can be used as a tool in the execution of that skill. Increase base weight by half.
 
  
-**Table 1.6: Armour and Clothing Modifications**
+**Table 1.6: Armour Modifications**
 
 \#|Modification|Description
 :--|:--|:--

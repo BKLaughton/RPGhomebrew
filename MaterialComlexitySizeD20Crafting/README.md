@@ -37,7 +37,7 @@ Workable|4|Wood, bone, hide, leather, aranea silk
 Tough|8|Iron, bronze, gold, silver, lead, glass, darkwood, dragonhide
 Resilient|16|Steel, stone, gems, adamantine, cold iron, mithril
 
-##Complexity DC
+## Complexity DC
 
 Each item has a certain level of complexity in its design, and this complexity determines the difficulty of this item’s creation in terms of skill, whilst also affecting how long it takes to make. See **Table 1.2** for different complexity levels with examples and corresponding Complexity DC rating.  This table doesn't grant the ability to craft items beyond the technology level of the setting of the game. 
 

@@ -6,7 +6,7 @@
  
 # Crafting
 
-The basic process of crafting involves paying the raw material cost, determining the project's Crafting Value (CV), then making daily progress checks to increase the project's Progress Value (PV). When the PV equals or exceeds the CV, the item is complete.
+The basic process of crafting involves paying the raw material cost, determining the project's Crafting Value (CV), then making daily progress checks to increase the project's Progress Points (PP). When the PP total equals or exceeds the CV, the item is complete.
 
 For large projects, the DM may require that separate key components are crafted as separate items.
 
@@ -74,11 +74,11 @@ Huge|64 / 32|16 ft. - 32 ft.|2 tons - 16 tons
 Gargantuan|128 / 64|32 ft. - 64 ft.|16 tons - 125 tons
 Colossal|256 / 128|64 ft. or more|125 tons or more
 
-## Daily progress
+## Progress Points (PP)
 
-At the beginning of each day, a crafter makes a crafting skill check to determine how much progress they make in crafting the item. They make a check against the Complexity DC of the item they’re working on. If successful, add the total result to the projects progress value (PV). If the check succeeds by 5, the accrued PV points equal twice the check result. If the check succeeds by 10 or more, it’s triple the check result in progress. 
+At the beginning of each day, a crafter makes a crafting skill check to determine how much progress they make in crafting the item. They make a check against the Complexity DC of the item they’re working on. If successful, add the total result to the project's Progress Point (PP) total. If the check succeeds by 5, the accrued PP equals twice the check result. If the check succeeds by 10 or more, it’s triple the check result in PP. 
 
-Failing a daily progress check means that no progress is made that day. Failing by 5 deducts one quarter of the accrued PV. Failing by 10 deducts half of the accrued PV. Failing by 15 or more deducts all PV, destroying the project completely and requiring the crafter to start over; half of the required raw materials can be salvaged from the failed project, the other half will need to be acquired by the crafter to resume work.
+Failing a daily progress check means that no progress is made that day. Failing by 5 deducts one quarter of the accrued PP. Failing by 10 deducts half of the accrued PP. Failing by 15 or more deducts all PP, destroying the project completely and requiring the crafter to start over; half of the required raw materials can be salvaged from the failed project, the other half will need to be acquired by the crafter to resume work.
  
 If the crafter doesn’t have the required tools for their craft, they get -5 on their craft check. If they possess masterwork tools, they get +2. Some crafting skills require certain facilities (e.g. smithing requires a forge). 
 
@@ -110,7 +110,7 @@ Colossal|12 / 10|3 / 3
 
 A piece of weaponry or armour can be given a modification with the relevant craft skill. Each piece of equipment can only have one modification applied at once, though modifications can be changed or removed with the appropriate craft skill. 
  
-To make modifications, use the crafting rules above, but quarter the crafting value (CV) required to make the weapon or armour being modified: this is the CV for the modification. Then use the same crafting rules to find the Complexity DC for that item, and roll against it daily to accrue Progress Value (PV). The modification is complete when the PV equals or exceeds the modification's CV. Weapons and Armour are considered broken whilst modification work is in progress.
+To make modifications, use the crafting rules above, but quarter the crafting value (CV) required to make the weapon or armour being modified: this is the CV for the modification. Then use the same crafting rules to find the Complexity DC for that item, and roll against it daily to accrue Progress Points (PP). The modification is complete when the PP total equals or exceeds the modification's CV. Weapons and Armour are considered broken whilst modification work is in progress.
  
 **Table 1.5: Weapon modifications**
 

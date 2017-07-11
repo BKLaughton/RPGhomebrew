@@ -1,5 +1,4 @@
-# Material, Complexity, Size
-## ^*D20 ^Crafting ^houserules*
+# Material, Complexity, Size – *D20 crafting houserules*
 
 >#### Preface
 >

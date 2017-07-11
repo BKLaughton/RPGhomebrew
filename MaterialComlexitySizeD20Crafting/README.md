@@ -1,10 +1,11 @@
+# Material\*Complexity\*Size D20 Crafting
+
 >#### Preface
 >
 > Standard D20 crafting rules base crafting times upon the market price of the items being created. This results in weird and unheroic gameplay outcomes. For instance, gold armour takes months longer to make than steel armour, even though gold is easier to work with. Or, a legendary swordsmith PC might have to take a couple of years off adventuring just to forge a greatsword from unique materials. Contrast how a caster can brew potions in a matter of hours, and creates magic items in mere days. 
 >
 > The goal of these rules is not to simulate perfectly realistic crafting times, just to make crafting time related to the material, complexity, and size of the item being crafted, and to make crafting a rewarding character option. Not everything has changed; most facets of these rules are likely to be familiar. Rather than overhaul the entire crafting system, this homebrew aims at modifying, combining, and expanding existing mechanics. This guide is not comprehensive, and stands best as a supplement to a more complete D20 ruleset.
- 
-# Crafting
+
 
 The basic process of crafting involves paying the raw material cost, determining the project's Crafting Value (CV), then making daily progress checks to increase the project's Progress Point (PP) total. When the PP total equals or exceeds the CV, the item is complete.
 

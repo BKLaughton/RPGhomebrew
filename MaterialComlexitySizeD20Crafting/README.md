@@ -1,4 +1,4 @@
->### Preface
+>#### Preface
 >
 > Standard D20 crafting rules base crafting times upon the market price of the items being created. This results in weird and unheroic gameplay outcomes. For instance, gold armour takes months longer to make than steel armour, even though gold is easier to work with. Or, a legendary swordsmith PC might have to take a couple of years off adventuring just to forge a greatsword from unique materials. Contrast how a caster can brew potions in a matter of hours, and creates magic items in mere days. 
 >

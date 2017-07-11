@@ -1,4 +1,4 @@
-# Material\*Complexity\*Size D20 Crafting
+# (Material) x (Complexity) x (Size) D20 Crafting
 
 >#### Preface
 >

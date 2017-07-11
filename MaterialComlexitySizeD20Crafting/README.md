@@ -1,4 +1,4 @@
-# Material, Complexity, Size: D20 crafting houserules
+# Material, Complexity, Size: variant D20 crafting
 
 >#### Preface
 >

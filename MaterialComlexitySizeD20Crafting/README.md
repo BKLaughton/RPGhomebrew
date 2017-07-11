@@ -6,7 +6,7 @@
  
 # Crafting
 
-The basic process of crafting involves paying the raw material cost, determining the project's Crafting Value (CV), then making daily progress checks to increase the project's Progress Points (PP). When the PP total equals or exceeds the CV, the item is complete.
+The basic process of crafting involves paying the raw material cost, determining the project's Crafting Value (CV), then making daily progress checks to increase the project's Progress Point (PP) total. When the PP total equals or exceeds the CV, the item is complete.
 
 For large projects, the DM may require that separate key components are crafted as separate items.
 
@@ -18,34 +18,49 @@ With DM approval, raw materials might be able to be sourced via alternative meth
 
 ## Crafting Value (CV)
 
+    CV = (Material Modifier) x (Complexity Modifier) x (Size Modifier) 
+
 The first step in crafting an item is determining its CV: an item’s CV describes how much work is required to make it. This figure is derived from the material, complexity, and size of the item. 
- 
-    CV = (Material Modifier) x (Complexity DC) x (Size Modifier) 
  
 ## Material Modifier
 
-Some materials are easy to work with, some are difficult, and some require extreme treatment to be worked upon at all. **Table 1.1** (below) categorises the ease of working with different materials, listing example materials and the respective material modifiers. 
+Material Modifier = Hardness + 2
 
-Use the material modifier for the most complex element’s composition (e.g. a spear is considered to be ‘tough’ on account of the spearhead, even though it's mostly made of wood.) Rare, superior, and exotic materials typically fall into 1 category higher than mundane materials of similar composition.
+Some materials are easy to work with, some are difficult, and some require extreme treatment to be worked upon at all. **Table 1.1** (below) lists the hardness of various materials, with the respective material modifiers. If the material your crafting project uses isn't on this table, consult with the DM to estimate a material modifier. Use the material modifier for the most complex element’s composition (e.g. a spear is considered to be iron on account of the spearhead, even though it's mostly made of wood.) 
 
 **Table 1.1: Material Modifiers**
 
-Material|Modifier|Examples
-:--|--:|:--
-Pliable|2|Clay, cloth, paper
-Workable|4|Wood, bone, hide, leather, aranea silk
-Tough|8|Iron, bronze, gold, silver, lead, glass, darkwood, dragonhide
-Resilient|16|Steel, stone, gems, adamantine, cold iron, mithril
+Materials|Hardness|Material Modifier
+:--|--:|--:
+Clay, cloth, paper, rope, ice|0|2
+Glass, black seaweed, griffon mane, whale sinew|1|3
+Leather, hide|2|4
+Vulcanised rubber|3|5
+Chitin|4|6
+Wood, darkwood, waterwood, gold, angelskin, bone|5|7
+Coral, sea shell|7|9
+Silver, stone, whipwood|8|10
+Bronze|9|11
+Iron, cold iron, steel, darkleaf cloth, dragonhide|10|12
+Bulette hide|12|14
+Mithral, living steel|15|17
+Adamantine, diamond, gemstones|20|22
 
-## Complexity DC
+## Complexity Modifier
 
-Each item has a certain level of complexity in its design, this determines the difficulty of its creation in terms of skill, whilst also affecting how long it takes to make. See **Table 1.2** for different complexity levels with examples and corresponding Complexity DC rating.  This table doesn't grant the ability to craft items beyond the technology level of the setting of the game. 
+    Complexity Modifier = Craft DC
+    
+Each item has a certain level of complexity in its design, this determines the difficulty of its creation in terms of skill, (i.e. the DC you roll against with the relevant craft skill to actually make the item). More complicated items with higher craft DCs take longer to make than simple items with low craft DCs. 
+
+#### Optional rule: Complexity levels
+
+Instead of using standard craft DCs, which vary widely depending on the specific craft skill and application, all craft DCs can instead fall into one of seven tiers of complexity, with a related craft DC in increments of 5. See **Table 1.2** for different complexity levels with examples and corresponding craft DCs.  This table doesn't grant the ability to craft items beyond the technology level of the setting of the game. 
 
 **Table 1.2: Item Complexity**
  
-Complexity|DC|Examples|
+Complexity|Craft DC|Examples
 :--|--:|:--
-Extremely Simple|5| Casting plaster, carved one-piece items, clubs, quarterstaffs, slings.
+Extremely simple|5|Casting plaster, carved one-piece items, clubs, quarterstaffs, slings.
 Simple|10| Light armour, wooden shields, iron kitchenware, carts, rafts, most simple weapons (not crossbows).
 Normal|15| Acid, cement, grease, weapon oil, lamp oil, ink, dye, medium armour, steel shields, simple adventuring gear, chariots, rowboats, sleighs, wagons, martial weapons and crossbows.
 Complex|20|Black powder, glue, solvent, alchemist’s fire, flash powder, invisible ink, short-range paper fireworks, smokesticks, tindertwigs, cold iron (from ore), heavy armour, jewelry, skill toolkits, locks, complicated adventuring gear, traps CR 1–5, carriages, gliders, keelboats, longships, early firearm ammunition, early one-handed firearms, early two-handed firearms, exotic weapons.
@@ -55,7 +70,7 @@ Extremely Intricate|35|Vaccines, traps CR 16+, alchemical dragons, steam giants,
 
 ### Prototypes
 
-With DM approval, technological innovations beyond the level that exist in the game world can be developed by building a prototype. This prototype requires triple raw material costs and triple the standard CV of an item of it's type to create. Additionally, daily progress checks are made against a complexity DC one level higher than for the item being developed. The end result is a prototype of the desired item which is fragile, unstable, improperly sized, or otherwise impractical to use. Once the prototype has been created, new items of that type can be created. Alternatively, for same CV of creating a new item (but only half the standard raw material cost), the original prototype can be upgraded such that it no longer has prototype penalties. 
+With DM approval, technological innovations beyond the level that exist in the game world can be developed by building a prototype. This prototype requires triple raw material costs and triple the standard CV of an item of it's type to create. Additionally, daily progress checks are made against the relevant craft DC + 5, (i.e. one complexity level higher). The end result is a prototype of the desired item which is fragile, unstable, improperly sized, or otherwise impractical to use (DM's decides which). Once the prototype has been created, new items of that type can be created. Alternatively, for half the CV of creating a new item (and half the standard raw material cost), the original prototype can be upgraded such that it no longer has prototype penalties. 
 
 ## Size Modifier
 
@@ -78,11 +93,11 @@ Colossal|256 / 128|64 ft. or more|125 tons or more
 
 ## Progress Points (PP)
 
-At the beginning of each day, a crafter makes a crafting skill check to determine how much progress they make in crafting the item. The check is made against the Complexity DC of the item being working on. If successful, add the total result to the project's Progress Point (PP) total. If the check succeeds by 5, add double the check result to the PP total. If the check succeeds by 10 or more, add triple the check result in PP.
+At the beginning of each day, a crafter makes a crafting skill check to determine how much progress they make in crafting the item. The check is made against the Craft DC of the item being working on. If successful, add the total result to the project's Progress Point (PP) total. If the check succeeds by 5, add double the check result to the PP total. If the check succeeds by 10 or more, add triple the check result in PP. 
 
-Failing a daily progress check means that no progress is made that day. Failing by 5 deducts one quarter of the accrued PP. Failing by 10 deducts half of the accrued PP. Failing by 15 or more deducts all PP, destroying the project completely and requiring the crafter to start over; half of the required raw materials can be salvaged from the failed project, the other half will need to be sourced anew to resume work.
+Failing a daily progress check simply means that no progress is made that day, however, rolling a natural 1 results in a set-back. Calculate PP as if you'd rolled a natural 20, but then deduct that amount from the PP total.
  
-If the crafter doesn’t have the required tools for their craft, they get -5 on their craft check. If they possess masterwork tools, they get +2. Some crafting skills require certain facilities (e.g. smithing requires a forge). 
+If the crafter doesn’t have the required tools for their craft, they get -5 on their craft check. If they possess masterwork tools, they get +2. Some crafting skills require certain facilities (e.g. smithing requires a forge) for a daily progress to even be attempted. 
 
 #### Helpers
  
@@ -112,7 +127,7 @@ Colossal|12 / 10|3 / 3
 
 A piece of weaponry or armour can be given a modification with the relevant craft skill. Each piece of equipment can only have one modification applied at once, though modifications can be changed or removed with the appropriate craft skill. 
  
-To make modifications, use the crafting rules above, but quarter the crafting value (CV) required to make the weapon or armour being modified: this is the CV for the modification. Then use the same crafting rules to find the Complexity DC for that item, and roll against it daily to accrue Progress Points (PP). The modification is complete when the PP total equals or exceeds the modification's CV. Weapons and Armour have the 'broken' condition whilst modification work is in progress. Many Armour modifications can also be applied to clothing (not those modifying armour statistics, of course), but a character cannot reap the benefits of modified clothing and armour, just whichever is worn on top. See **Table 1.5** and **Table 1.6** for a full list of Weapon and Armour modifications.
+To make modifications, use the crafting rules above, but quarter the crafting value (CV) required to make the weapon or armour being modified: this is the CV for the modification. Find the craft DC of the item being worked upon, and daily progress checks against that DC accrue Progress Points (PP) towards the modification. The modification is complete when the PP total equals or exceeds the modification's CV. Weapons and Armour have the 'broken' condition whilst modification work is in progress. Many Armour modifications can also be applied to clothing (not those modifying armour statistics, of course), but a character cannot reap the benefits of modified clothing and armour, just whichever is worn on top. See **Table 1.5** and **Table 1.6** for a full list of Weapon and Armour modifications.
 
 #### Optional rule: Personalisations
 

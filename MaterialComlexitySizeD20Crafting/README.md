@@ -25,7 +25,7 @@ The first step in crafting an item is determining its CV: an item’s CV describ
  
 ## Material Modifier
 
-Material Modifier = Hardness + 2
+    Material Modifier = Hardness + 2
 
 Some materials are easy to work with, some are difficult, and some require extreme treatment to be worked upon at all. **Table 1.1** (below) lists the hardness of various materials, with the respective material modifiers. If the material your crafting project uses isn't on this table, consult with the DM to estimate a material modifier. Use the material modifier for the most complex element’s composition (e.g. a spear is considered to be iron on account of the spearhead, even though it's mostly made of wood.) 
 
